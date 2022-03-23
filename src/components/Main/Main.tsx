@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Main.module.scss";
+import Button from "@mui/material/Button";
 
 export const Main = () => {
   const handleClick = () => {
@@ -8,7 +9,9 @@ export const Main = () => {
 
   return (
     <div className={styles.main}>
-      Main component go !<button onClick={handleClick}>go</button>
+      <div className={styles.div_1}>1</div>
+      <div className={styles.div_2}>2</div>
+      <div className={styles.div_3}>3</div>
     </div>
   );
 };

@@ -1,16 +1,15 @@
 import React from "react";
 import { Main } from "./components/Main/Main";
-import { Home } from "./components/Home/Home";
+import { Header } from "./components/Header/Header";
+import { About } from "./components/About/About";
 import styles from "./App.module.scss";
 
 export const App = () => {
   return (
     <div className={styles.app__wrapper}>
-      App
-      <br />
+      <Header />
       <Main />
-      <br />
-      <Home />
+      <About />
     </div>
   );
 };
