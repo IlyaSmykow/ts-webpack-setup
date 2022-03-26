@@ -1,0 +1,10 @@
+.second__wrapper {
+  width: 1262px;
+  height: 655px;
+  margin: 0 auto;
+  margin-top: -300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: end;
+  background: url("../../img/map.png");
+}
